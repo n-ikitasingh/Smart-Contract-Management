@@ -64,7 +64,7 @@ Smart Contract Management is a blockchain-based project that demonstrates the in
    In the third terminal, type:
 
    ```bash
-   npx hardhat run scripts/deploy.js --network localhost
+   npx hardhat run --network localhost scripts/deploy.js
    ```
 
 6. **Update Contract Address**
