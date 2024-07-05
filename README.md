@@ -36,8 +36,7 @@ Smart Contract Management is a blockchain-based project that demonstrates the in
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/function-frontend.git
-   cd function-frontend
+   git clone https://github.com/n-ikitasingh/Smart-Contract-Management.git
    ```
 
 2. **Install Dependencies**
