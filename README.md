@@ -42,23 +42,33 @@ Smart Contract Management is a blockchain-based project that demonstrates the in
 
 2. **Install Dependencies**
 
-   ```bash
-   npm install i
-   ```
-
-3. **Compile the Smart Contract**
+   Inside the project directory, in the terminal type:
 
    ```bash
-   npx hardhat compile
+   npm i
    ```
 
-4. **Deploy the Smart Contract**
+3. **Open Additional Terminals**
+
+   Open two additional terminals in your VS Code.
+
+4. **Start the Hardhat Node**
+
+   In the second terminal, type:
+
+   ```bash
+   npx hardhat node
+   ```
+
+5. **Deploy the Smart Contract**
+
+   In the third terminal, type:
 
    ```bash
    npx hardhat run scripts/deploy.js --network localhost
    ```
 
-5. **Update Contract Address**
+6. **Update Contract Address**
 
    In `pages/index.js`, replace the placeholder with your deployed contract address:
 
@@ -66,7 +76,9 @@ Smart Contract Management is a blockchain-based project that demonstrates the in
    const contractAddress = "YOUR_CONTRACT_ADDRESS";
    ```
 
-6. **Start the Frontend Application**
+7. **Start the Frontend Application**
+
+   Back in the first terminal, type:
 
    ```bash
    npm run dev
@@ -88,4 +100,3 @@ Smart Contract Management is a blockchain-based project that demonstrates the in
 
    - View your current balance, double balance, and half balance.
    - Use the "Deposit 1 ETH" and "Withdraw 1 ETH" buttons to interact with the contract.
-
