@@ -99,3 +99,10 @@ Smart Contract Management is a blockchain-based project that demonstrates the in
 
    - View your current balance, double balance, and half balance.
    - Use the "Deposit 1 ETH" and "Withdraw 1 ETH" buttons to interact with the contract.
+  
+## Authors
+Nikita Singh
+[Nikita Singh](https://www.linkedin.com/in/nikita-singh-08318924b)
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for the details.
